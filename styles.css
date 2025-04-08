@@ -1,0 +1,130 @@
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.menu{
+    max-width: 150px;
+    height: 100vh;
+    background: #cccccc;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.menu-item{
+    color: white;
+    background:rgba(0, 0, 0, 0.563);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.menu-link{
+    color: white;
+    text-decoration: none;
+    padding-top: 1900px;
+    background: green;
+}
+
+.montant-solde, .retrait-card, .depot-card, .list-of-users {
+    height: 200px;
+    width: 400px;
+    padding: 15px;
+    margin-left: 300px;
+    z-index: 999;
+    position: absolute;
+    top: 50px;
+    left: -70px;
+    color: rgb(55, 54, 54);
+    background: #dddddd67;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    
+}
+
+.montant-solde h2{
+   padding: 10px;
+}
+
+.retrait-card, .depot-card{
+    height: 150px;
+}
+
+.list-of-users{
+    width: 800px;
+    height: 90vh
+}
+
+.list-of-users table{
+    border-collapse: collapse;
+    border: 1px solid grey;
+    margin-top: 10px;
+}
+.list-of-users table tr td, .list-of-users table tr th{
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+.edit{
+    color: orange;
+}
+
+.delete{
+    color: red;
+}
+
+#btn-btn{
+    float:right;
+    border:5px solid ;
+    border-radius: 5px;
+    background:rgba(0, 0, 255, 0.797);
+    text-decoration: none;
+    color:#fff;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+#formulaire{
+    transform: translate(50%,10%);
+    padding: 5%;
+    max-width:600px;
+}
+form label {
+    display: block;
+    margin-top: 1rem;
+}
+
+
+form input, form select, form button {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background: rgb(0, 128, 255);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: rgb(0, 128, 255);
+}
